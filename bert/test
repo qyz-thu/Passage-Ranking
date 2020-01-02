@@ -1,0 +1,25 @@
+class C:
+    def __init__(self):
+        print("this is class C")
+
+
+class A(C):
+    def __init__(self, x):
+        super(A, self).__init__()
+        print("this is class A")
+        print(x)
+
+    @classmethod
+    def f(cls):
+        x = cls()
+        return x
+
+
+class B(A):
+    def __init__(self):
+        super(B, self).__init__('1')
+        print("this is class B")
+
+
+a = B.f()
+print(a)

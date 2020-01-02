@@ -1,0 +1,1 @@
+python fever_score_test.py --predicted_labels ../model_multi/output/dev.jsonl  --predicted_evidence ./output/dev.jsonl --actual ../../fetch_data/golden_data/data/dev.jsonl
