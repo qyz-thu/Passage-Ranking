@@ -15,6 +15,8 @@ Figure1. General Model
 Figure2. Distributed Model
 
 </center>
+  
+See *Final Report.pdf* for detailed description of our architecture.  
 
 ## Result
-Unfortunately, due to the limitation in time and device, we haven't acquired a final result.
+Unfortunately, due to the limitation in time and facility, the final result haven't yet been acquired.
